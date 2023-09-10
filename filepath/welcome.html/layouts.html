@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>HTML layouts</title>
+    <style>
+        .header {
+          display: flex;
+          background-color: rgb(200, 222, 35);
+        }
+        
+        .header > div {
+          background-color: #0e17b8;
+          margin: 10px;
+          padding: 20px;
+          font-size: 30px;
+        }
+        </style>
+</head>
+
+<body>
+    <p>
+        HTML Layout Techniques
+        There are four different techniques to create multicolumn layouts. Each technique has its pros and cons:
+
+        CSS framework Bootstrap
+        CSS float property
+        CSS flexbox
+        CSS grid
+    </p>
+
+    <p>CSS Flexbox Layout Module
+        Before the Flexbox Layout module, there were four layout modes:
+
+        Block, for sections in a webpage
+        Inline, for text
+        Table, for two-dimensional table data
+        Positioned, for explicit position of an element
+        The Flexible Box Layout Module, makes it easier to design flexible responsive layout structure without using
+        float or positioning.</p>
+
+<h1>Create a Flex Container</h1>
+
+<div class="header">
+  <div>First</div>
+  <div>Second</div>
+  <div>Third</div>  
+  <div>Fourth</div>
+  <div>Fifth</div>
+  <div>Sixth</div>  
+</div>
+
+<p>A Flexible Layout must have a parent element with the <em>display</em> property set to <em>flex</em>.</p>
+
+<p>Direct child elements(s) of the flexible container automatically becomes flexible items.</p>
+<br><br>
+<h1>grid layout</h1>
+<p>Grid Layout
+The CSS Grid Layout Module offers a grid-based layout system, with rows and columns, making it easier to design web pages without having to use floats and positioning.
+<p>
+Grid Elements
+A grid layout consists of a parent element, with one or more child elements.
+</p>
+</p>
+
+<p ><a href="grid.html"> Grid layout</a></p>
+
+</body>
+
+</html>

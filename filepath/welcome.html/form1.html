@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Servey</title>
+</head>
+
+<body>
+    <p>
+        The
+    <form> element is a container for different types of input elements, such as: text fields, checkboxes, radio
+        buttons, submit buttons, etc.
+
+        The HTML input element is the most used form element.
+
+An input element can be displayed in many ways, depending on the type attribute.
+
+<form>
+    <label for="fname">First name:</label><br>
+    <input type="text" id="fname" name="fname" placeholder="enter name"><br>
+    <label for="lname">Last name:</label><br>
+    <input type="text" id="lname" name="lname">
+
+    <label for="html">HTML</label><br>
+    <input type="radio" id="html" name="fav_language" value="HTML">
+    <label for="css">CSS</label><br>
+    <input type="radio" id="css" name="fav_language" value="CSS">
+    <label for="javascript">JavaScript</label>
+    <input type="radio" id="javascript" name="fav_language" value="JavaScript">
+
+    <!--here is it -->
+    <input type="checkbox" id="vehicle1" name="vehicle1" value="Bike">
+    <label for="vehicle1"> I have a bike</label><br>
+    <input type="checkbox" id="vehicle2" name="vehicle2" value="Car">
+    <label for="vehicle2"> I have a car</label><br>
+    <input type="checkbox" id="vehicle3" name="vehicle3" value="Boat">
+    <label for="vehicle3"> I have a boat</label>
+
+    <input type="text" id="lname" name="lname" value="Doe"><br><br>
+    
+
+    <select id="cars" name="cars" multiple>
+        <optgroup label="cars">
+        <option value="volvo">Volvo</option>
+        <option value="saab">Saab</option>
+        <option value="fiat">Fiat</option>
+        <option value="audi">Audi</option>
+    </optgroup>
+        <optgroup label="buses">
+        <option value="volvo">Ac buses</option>
+        <option value="saab">PCMP</option>
+        <option value="fiat">Double dekker</option>
+        <option value="audi">PMPML</option>
+    </optgroup>
+      </select>
+
+      <textarea name="message" rows="10" cols="30">
+        The cat was playing in the garden.
+        </textarea>
+
+        <input type="submit" value="Submit">
+  </form>
+        </p>
+
+        <p>The input formaction attribute specifies the URL of the file that will process the input when the form is submitted.
+
+            Note: This attribute overrides the action attribute of the <form> element.
+            
+            The formaction attribute works with the following input types: submit and image.</p>
+</body>
+
+</html>

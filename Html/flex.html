@@ -1,0 +1,176 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>divisions</title>
+    <style>
+        .container {
+            display: flex;
+            flex-direction: row;
+        }
+
+        h1 {
+
+            text-align: center;
+        }
+
+        header {
+            background-color: rgb(156, 156, 196);
+            height: 250px;
+
+        }
+
+        footer {
+            background-color: rgb(156, 156, 196);
+            height: 150px;
+           text-align: end;
+          
+
+        }
+
+       
+
+        /* bullets should not show up*/
+        ul {
+            list-style: none;
+            
+        }
+
+        img {
+            margin-top: 30px;
+        }
+
+        /* explain margin and padding through this example */
+        .one {
+            width: 1000px;
+            height: 600px;
+            float: left;
+            background: linear-gradient(red, purple);
+            margin: 30px;
+            text-align: center;
+        }
+
+        .two {
+            width: 300px;
+            height: 600px;
+            margin: 30px;
+            float: right;
+            background: linear-gradient(red, purple);
+            text-align: center;
+        }
+
+        li {
+            margin-top: 30px;
+        }
+
+        * {
+            margin: 0;
+            padding: 0;
+            font-family: cursive;
+
+        }
+
+        article {
+            margin: 30px;
+
+        }
+        footer>a{
+          margin: 30px;
+          display: block;
+          display: inline; 
+          background-color: yellow;
+          flex-direction: row;
+        }
+    </style>
+</head>
+
+<body>
+    <Header>
+        <img src="bookR.png" width="150" height="150" alt="">
+        <h1>Library</h1>
+    </Header>
+
+    <div class="container">
+        <div class="one">
+            <!-- FIrst section-->
+            <section>
+                
+                <article>
+                    <p>
+                        This is an HTML article, Lorem ipsum dolor sit amet consectetur adipisicing elit. Porro
+                        officiis,
+                        odio beatae quaerat quo error molestias repellat nostrum minus vel debitis quas rerum earum
+                        repellendus aperiam perferendis voluptate iure. Autem mollitia repellat quisquam molestias
+                        ducimus porro voluptates recusandae dicta, esse ut aliquam eveniet sapiente doloribus.
+                    </p>
+                </article>
+            </section>
+
+            <!-- Second section-->
+            <section>
+
+                <article>
+                    <p>
+                        This is an CSS article, Lorem ipsum dolor sit amet consectetur adipisicing elit. Porro officiis,
+                        odio beatae quaerat quo error molestias repellat nostrum minus vel debitis quas rerum earum
+                        repellendus aperiam perferendis voluptate iure. Autem mollitia repellat quisquam molestias
+                        ducimus porro voluptates recusandae dicta, esse ut aliquam eveniet sapiente doloribus.
+                    </p>
+                </article>
+            </section>
+            
+            <!-- Third section-->
+
+            <section>
+
+                <article>
+                    <p>
+                        This is an CSS article, Lorem ipsum dolor sit amet consectetur adipisicing elit. Porro officiis,
+                        odio beatae quaerat quo error molestias repellat nostrum minus vel debitis quas rerum earum
+                        repellendus aperiam perferendis voluptate iure. Autem mollitia repellat quisquam molestias
+                        ducimus porro voluptates recusandae dicta, esse ut aliquam eveniet sapiente doloribus.
+                    </p>
+                </article>
+            </section>
+            <!-- forth section-->
+            <section>
+
+                <article>
+                    <p>
+                        This is an CSS article, Lorem ipsum dolor sit amet consectetur adipisicing elit. Porro officiis,
+                        odio beatae quaerat quo error molestias repellat nostrum minus vel debitis quas rerum earum
+                        repellendus aperiam perferendis voluptate iure. Autem mollitia repellat quisquam molestias
+                        ducimus porro voluptates recusandae dicta, esse ut aliquam eveniet sapiente doloribus.
+                    </p>
+                </article>
+            </section>
+
+        </div>
+        <div class="two">
+            <h4> This is second div for references </h4>
+            <div class="aside"></div>
+            <ul>
+                <li> <a href="#"> HTML references</a> </li>
+                <li> <a href="#"> CSS references</a> </li>
+                <li> <a href="#"> React references</a> </li>
+                <li> <a href="#"> JavaScript references</a> </li>
+                <li> <a href="#"> Express references</a> </li>
+                <li> <a href="#"> Mangoose references</a> </li>
+
+            </ul>
+
+        </div>
+    </div>
+
+    <footer>
+        <a href="#"> Facebook</a>
+        <a href="#"> Instagram</a>
+        <a href="#"> Twitter</a>
+    </footer>
+
+</body>
+
+</html>

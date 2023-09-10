@@ -1,0 +1,84 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>FLex layouts</title>
+<style>
+.parent{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: orangered;
+}
+
+.child{
+    width: 100px;
+    height:100px;
+    background-color: yellowgreen;
+    margin: 5px;
+    text-align: center;
+}
+.child1{
+  
+    background-color:bisque;
+    margin: 5px;
+    text-align: center;
+}
+.item2{
+    flex-grow: 4;
+}
+.item3{
+    flex-grow: 2;
+}
+
+.section{
+    display: flex;
+}
+.aside{
+    flex-grow: 1;
+    
+}
+
+.aside1{
+    flex-grow: 1;
+}
+.main{
+    flex-grow: 3;
+}
+</style>
+
+</head>
+<body>
+
+<div class="parent">
+    <div class="child item1"><img src="nature.jpg" alt="" width="100px" height="100px"></div>
+    <div class="child item2"> Tadoba Jungle</div>
+    <div class="child item3">3</div>
+</div>
+<div class="section">
+    <div class="child1 aside">
+    
+        <details>
+            <summary>HTML</summary>
+            <a href="#">inline element</a><br>
+            <a href="#">inline element</a><br>
+            <a href="#">inline element</a><br>
+            <a href="#">inline element</a><br>
+        </details>
+    </div>
+    <div class="child1 main">Lorem ipsum dolor sit amet consectetur adipisicing elit. Corporis minima, eum animi obcaecati quos eligendi saepe? Quia, ratione corrupti porro blanditiis, cupiditate temporibus in quaerat doloremque officia illo quis dolorum maxime! Nostrum eligendi, quis commodi eos qui dolores distinctio incidunt quos maiores quaerat id aspernatur fugit corporis ipsam velit dolorum nemo voluptates perspiciatis fugiat odit architecto non nihil! Incidunt vel minima vero pariatur unde voluptatem est nulla quos, veniam fugit deleniti architecto obcaecati aliquid corrupti sit et eaque, aliquam reprehenderit nemo ratione molestiae quidem perferendis iure numquam. Facilis magni voluptas eum placeat, porro at reprehenderit asperiores amet fugit sint reiciendis ipsa dolor nulla deserunt blanditiis vel dignissimos quibusdam quae cupiditate ullam exercitationem veniam. Illum amet dicta aliquid veniam nihil ratione ab eius natus eum doloremque minima qui odio, porro rem magnam. Molestias earum laudantium quaerat veniam esse quod atque nobis repellendus labore. Earum numquam modi architecto aperiam vitae ducimus unde.
+        <hr>
+    </div>
+    <div class="child1 aside1">
+        <details>
+            <summary>HTML</summary>
+            <a href="#">inline element</a><br>
+            <a href="#">inline element</a><br>
+            <a href="#">inline element</a><br>
+            <a href="#">inline element</a><br>
+        </details>
+    </div>
+</div>
+</body>
+</html>
